@@ -57,7 +57,7 @@ function createTimeBlocks(index, currentHour, schedule) {
 	// - Create button;
 	const button = document.createElement("button");
 	button.classList.add("btn", "saveBtn", "col-md-1");
-	button.innerHTML = "Save";
+	button.innerHTML = `<img src="./assets/icons/save.ico" alt="Save Button" />`;
 	// Determine present;
 	if (index < currentHour) {
 		timeBlock.classList.add("past");
